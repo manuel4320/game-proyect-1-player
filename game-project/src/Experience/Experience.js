@@ -203,6 +203,7 @@ export default class Experience {
     this.world.update(delta)
     this.renderer.update()
     this.physics.update(delta)
+    // this.debugger?.update() // activar fisicas
   }
 
   adjustCameraForVR() {

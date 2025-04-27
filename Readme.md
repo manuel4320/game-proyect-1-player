@@ -63,8 +63,9 @@ npm install
 📄 Crea un archivo `.env` con el siguiente contenido:
 
 ```env
-PORT=3001
 MONGO_URI=mongodb://127.0.0.1:27017/threejs_blocks
+PORT=3001
+API_URL=http://192.168.20.9:3001/api/blocks/batch
 ```
 
 Ejecutar el servidor:

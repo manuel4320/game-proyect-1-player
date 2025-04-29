@@ -1,7 +1,7 @@
 
-# 🎮 Three.js Multiplayer Game (Sin Socket.IO)
+# 🎮 Three.js Multiplayer Game
 
-Este repositorio contiene la arquitectura base de una aplicación web interactiva en 3D desarrollada con **Three.js**, **React**, **Express**, y **MongoDB**, orientada a videojuegos educativos. En esta versión se incluye el flujo completo de frontend y backend, sin la integración de sockets en tiempo real.
+Este repositorio contiene la arquitectura base de una aplicación web interactiva en 3D desarrollada con **Three.js**, **React**, **Express**, y **MongoDB**, orientada a videojuegos educativos. En esta versión se incluye el flujo completo de frontend y backend.
 
 ---
 

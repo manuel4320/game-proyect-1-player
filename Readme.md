@@ -17,7 +17,7 @@ threejs-multiplayer/
 │   │   └── blockRoutes.js
 │   └── .env
 │
-├── frontend/
+├── game-project/
 │   ├── public/
 │   ├── src/
 │   │   ├── components/
@@ -47,8 +47,8 @@ threejs-multiplayer/
 ### 1. Clonar el repositorio
 
 ```bash
-git clone https://github.com/tu_usuario/threejs-multiplayer.git
-cd threejs-multiplayer
+git clone https://github.com/guswill24/game-proyect-1-player.git
+cd game-proyect-1-player
 ```
 
 ---
@@ -65,7 +65,7 @@ npm install
 ```env
 MONGO_URI=mongodb://127.0.0.1:27017/threejs_blocks
 PORT=3001
-API_URL=http://192.168.20.9:3001/api/blocks/batch
+API_URL=http://localhost:3001/api/blocks/batch
 ```
 
 Ejecutar el servidor:
@@ -79,7 +79,7 @@ node app.js
 ### 3. Configurar el frontend
 
 ```bash
-cd ../frontend
+cd game-project
 npm install
 ```
 

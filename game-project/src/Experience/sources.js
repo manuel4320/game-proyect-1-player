@@ -402,16 +402,6 @@ export default [
         "path": "/models/toycar/simple_tree_5.glb"
     },
     {
-        "name": "towerwindmill",
-        "type": "gltfModel",
-        "path": "/models/toycar/towerwindmill.glb"
-    },
-    {
-        "name": "towerwindmill_blades",
-        "type": "gltfModel",
-        "path": "/models/toycar/towerwindmill_blades.glb"
-    },
-    {
         "name": "track-road-wide-corner-large.001",
         "type": "gltfModel",
         "path": "/models/toycar/track-road-wide-corner-large.001.glb"

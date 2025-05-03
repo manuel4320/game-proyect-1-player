@@ -11,7 +11,7 @@ async function seedDatabase() {
     try {
         await mongoose.connect(process.env.MONGO_URI)
 
-        await Block.deleteMany() // (opcional) limpia la colección
+        await Block.deleteMany() 
         await Block.insertMany(positions)
 
         console.log('📦 Datos insertados correctamente en MongoDB')

@@ -1,5 +1,5 @@
 
-# 🎮 Three.js Multiplayer Game
+# 🎮 Three.js un solo jugador
 
 Este repositorio contiene la arquitectura base de una aplicación web interactiva en 3D desarrollada con **Three.js**, **React**, **Express**, y **MongoDB**, orientada a videojuegos educativos. En esta versión se incluye el flujo completo de frontend y backend.
 

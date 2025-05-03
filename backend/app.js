@@ -19,7 +19,7 @@ app.get('/', (req, res) => {
 });
 
 // Rutas
-//app.use('/blocks', blockRoutes)
+
 app.use('/api/blocks', blockRoutes) 
 
 mongoose.connect(process.env.MONGO_URI)

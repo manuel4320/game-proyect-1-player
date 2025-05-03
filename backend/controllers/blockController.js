@@ -9,8 +9,8 @@ exports.getBlocks = async (req, res) => {
 
 // Agregar un nuevo bloque
 exports.addBlock = async (req, res) => {
-    const { x, y, z } = req.body
-    const newBlock = new Block({ x, y, z })
+    const { name, x, y, z } = req.body
+    const newBlock = new Block({ name, x, y, z })
     await newBlock.save()
     res.status(201).json({ message: 'Bloque guardado', block: newBlock })
 }

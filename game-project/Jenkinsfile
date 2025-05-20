@@ -1,0 +1,28 @@
+pipeline {
+    agent any
+    environment {
+        CI = "false"
+    }
+    stages {
+        stage('Checkout') {
+            steps {
+                checkout scm
+            }
+        }
+        stage('Install dependencies') {
+            steps {
+                sh 'npm install --legacy-peer-deps'
+            }
+        }
+        stage('Run tests') {
+            steps {
+                sh 'npm test -- --watchAll=false'
+            }
+        }
+        stage('Build app') {
+            steps {
+                sh 'npm run build'
+            }
+        }
+    }
+}

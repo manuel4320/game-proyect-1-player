@@ -6,7 +6,7 @@ pipeline {
   }
 
   stages {
-    stage('Declarative: Checkout SCM') {
+    stage('Checkout') {
       steps {
         checkout scm
       }
@@ -15,18 +15,6 @@ pipeline {
     stage('Tool Install') {
       steps {
         tool name: 'Node 20', type: 'nodejs'
-      }
-    }
-
-    stage('Clean workspace') {
-      steps {
-        deleteDir()
-      }
-    }
-
-    stage('Checkout') {
-      steps {
-        git url: 'https://github.com/manuel4320/game-proyect-1-pl4yer.git', branch: 'main'
       }
     }
 
